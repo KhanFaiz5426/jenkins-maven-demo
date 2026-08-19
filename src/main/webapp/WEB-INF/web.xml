@@ -7,4 +7,14 @@
 
     <display-name>Jenkins Maven Demo</display-name>
 
+    <servlet>
+        <servlet-name>HelloJenkins</servlet-name>
+        <servlet-class>HelloJenkins</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloJenkins</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
 </web-app>
